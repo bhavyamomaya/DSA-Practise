@@ -1,0 +1,322 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Linkedlist",
+            "request": "launch",
+            "mainClass": "Linkedlist",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListlearn",
+            "request": "launch",
+            "mainClass": "LinkedListlearn",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "MatrixSearch",
+            "request": "launch",
+            "mainClass": "MatrixSearch",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "largestsum",
+            "request": "launch",
+            "mainClass": "largestsum",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "koko",
+            "request": "launch",
+            "mainClass": "koko",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Koko",
+            "request": "launch",
+            "mainClass": "Koko",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearcg",
+            "request": "launch",
+            "mainClass": "BinarySearcg",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Solution2",
+            "request": "launch",
+            "mainClass": "Solution2",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Flowers",
+            "request": "launch",
+            "mainClass": "Flowers",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "GCDString",
+            "request": "launch",
+            "mainClass": "GCDString",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "MergeString",
+            "request": "launch",
+            "mainClass": "MergeString",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "MaxScore",
+            "request": "launch",
+            "mainClass": "MaxScore",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "OutermostParenthesis",
+            "request": "launch",
+            "mainClass": "OutermostParenthesis",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "FancyString",
+            "request": "launch",
+            "mainClass": "FancyString",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "MaximumSubArray",
+            "request": "launch",
+            "mainClass": "MaximumSubArray",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "sub$sub",
+            "request": "launch",
+            "mainClass": "sub$sub",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "sub",
+            "request": "launch",
+            "mainClass": "sub",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "subarraysum",
+            "request": "launch",
+            "mainClass": "subarraysum",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Mergearray",
+            "request": "launch",
+            "mainClass": "Mergearray",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "median",
+            "request": "launch",
+            "mainClass": "median",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "majority",
+            "request": "launch",
+            "mainClass": "majority",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Pascal",
+            "request": "launch",
+            "mainClass": "Pascal",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Pr2149",
+            "request": "launch",
+            "mainClass": "Pr2149",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "MajorityElement",
+            "request": "launch",
+            "mainClass": "MajorityElement",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "SortColors",
+            "request": "launch",
+            "mainClass": "SortColors",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Max1s",
+            "request": "launch",
+            "mainClass": "Max1s",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "MissingNumber",
+            "request": "launch",
+            "mainClass": "MissingNumber",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "MoveZeros",
+            "request": "launch",
+            "mainClass": "MoveZeros",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "rotatearray",
+            "request": "launch",
+            "mainClass": "rotatearray",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Rotated",
+            "request": "launch",
+            "mainClass": "Rotated",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Palin",
+            "request": "launch",
+            "mainClass": "Palin",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "fibon",
+            "request": "launch",
+            "mainClass": "fibon",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Stock",
+            "request": "launch",
+            "mainClass": "Stock",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "kthchar",
+            "request": "launch",
+            "mainClass": "kthchar",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "Practice",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "lengthOfLongestSubstring",
+            "request": "launch",
+            "mainClass": "lengthOfLongestSubstring",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "LuckyInteger",
+            "request": "launch",
+            "mainClass": "LuckyInteger",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Stringplus1",
+            "request": "launch",
+            "mainClass": "Stringplus1",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "OrigianlTypedString",
+            "request": "launch",
+            "mainClass": "OrigianlTypedString",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Harmonious",
+            "request": "launch",
+            "mainClass": "Harmonious",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Solutions",
+            "request": "launch",
+            "mainClass": "Solutions",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "Array",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "StrRev",
+            "request": "launch",
+            "mainClass": "StrRev",
+            "projectName": "my-java-project"
+        }
+    ]
+}
