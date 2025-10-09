@@ -27,11 +27,7 @@ public class Excel {
         str=str.concat(bulls + "A" +cows+"B");
         return str;
     }
-
     public static void main(String[] args) {
         System.out.println(getHint("1122","1222"));        
     }
-    
-
-
 }
