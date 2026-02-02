@@ -25,40 +25,68 @@ public class Add2numbers {
         }
         System.out.println(temp.val);
     }
+    public static ListNode reverse(ListNode head) {
+    ListNode prev = null;
+    ListNode curr = head;
+
+    while (curr != null) {
+        ListNode next = curr.next;  
+        curr.next = prev;       
+        prev = curr;           
+        curr = next;           
+    }
+    return prev; 
+    }
+
+    public static ListNode helper(ListNode l1, ListNode l2,ListNode L3,int carry) {
+        if(l1==null && l2==null){
+            if(carry==0){
+                return L3;
+            }else{
+                ListNode temp2=new ListNode(1);
+                temp2.next=L3;
+                return temp2;
+            }
+        }
+        int add;
+        if(l1==null){
+            add=l2.val+carry;
+        }else{
+            if(l2==null){
+                add=l1.val+carry;
+            }else{
+                add=l1.val+l2.val+carry;
+            }
+        }
+
+        ListNode temp = new ListNode();
+        if((add)>9){
+            temp.val = (add)%10;   
+            carry=1;             
+        }else{
+            temp.val = (add)%10;
+            carry=0;
+        }
+        temp.next=L3;
+        if(l1==null){
+        return helper(null,l2.next,temp,carry);  
+        }else{
+            if(l2==null){
+                return helper(l1.next,null,temp,carry); 
+            }else{
+                return helper(l1.next,l2.next,temp,carry); 
+            }
+        }
+    }
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        int num1=0;
-        int num2=0;
-        int count1=0;
-        int count2=0;
-        ListNode current = l1; 
-        ListNode current2 = l2; 
-        while (current != null) {
-            num1=num1 + (current.val * (int)Math.pow(10, count1));
-            current = current.next;    
-            count1++;       
-        }
-        while(current2!= null){
-            num2=num2 +(current2.val * (int)(Math.pow(10,count2)));
-            current2=current2.next;
-            count2++;
-        }
-        ListNode head=null;
-        int add=num1+num2;
-        
-
-        while(add>0){
-            ListNode newnode = new ListNode(add%10);
-            newnode.next=head;
-            head=newnode;
-            add=add/10;
-        }
-        return head;       
+        ListNode temp = helper(l1, l2, null, 0);
+        return reverse(temp);      
     }
 
     public static void main(String[] args) {
-        int[] arr1={2,4,3};
-        int[] arr2={5,6,4};
+        int[] arr1={9,9,9,9,9,9,9};
+        int[] arr2={9,9,9,9};
         ListNode n1 =arrtoll(arr1);
         ListNode n2 =arrtoll(arr2);
      

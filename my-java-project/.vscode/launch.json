@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Learningjava",
+            "request": "launch",
+            "mainClass": "Learningjava",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Add2numbers",
+            "request": "launch",
+            "mainClass": "Add2numbers",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "Powrecussion",
+            "request": "launch",
+            "mainClass": "Powrecussion",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
+            "name": "RecursionPractice",
+            "request": "launch",
+            "mainClass": "RecursionPractice",
+            "projectName": "my-java-project"
+        },
+        {
+            "type": "java",
             "name": "Linkedlist",
             "request": "launch",
             "mainClass": "Linkedlist",
